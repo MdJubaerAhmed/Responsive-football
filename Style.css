@@ -17,7 +17,6 @@ section {
   height: 650px;
   margin-bottom: 70px;
   padding-left: 20px;
- 
 }
 nav {
   display: flex;
@@ -61,13 +60,11 @@ p {
 ---------------------> */
 .top-players {
   padding-left: 160px;
-  
 }
 .players {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin-bottom: 80px;
-
 }
 .player {
   width: 300px;
@@ -113,7 +110,6 @@ p {
   background-color: white;
   border-radius: 20px;
   padding-left: 20px;
- 
 }
 .footer-image {
   margin-top: 100px;
@@ -136,12 +132,15 @@ p {
   .container {
     width: 100%;
   }
-  .football-half, .players, .footer-tag{
+  .football-half,
+  .players,
+  .footer-tag {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
-  .top-players{
+  .top-players {
     flex-direction: column;
+  }
 }
 /*-----------------------
 Media Queries for Tablet
@@ -155,11 +154,11 @@ Media Queries for Tablet
   .footer-tag,
   .middle-half {
     display: grid;
-    grid-template-columns:repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
   .players,
   .footer-tag,
   .middle-half {
     flex-direction: column;
   }
-   
+}
